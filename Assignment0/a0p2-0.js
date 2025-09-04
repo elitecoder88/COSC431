@@ -1,7 +1,7 @@
 var axios = require('axios');
 var web3 = require('web3');
 
-const walletAddress = '0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045';
+const walletAddress = '';
 
 axios.all([
   axios.get('https://api.etherscan.io/api?module=account&action=balance&address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&tag=latest&apikey=IXVD99UE8GKJJUZBUVUXVY1JHPM35FTNYU'),
